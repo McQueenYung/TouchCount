@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Touch counter</title>
+    <link rel="apple-touch-icon" sizes="114x114" href="images/TouchCount_114.png">
+    <link rel="stylesheet" href="styles/app.css">
+  <body>
+    <div id=title>
+      <H1>Touch Counter</H1>
+      
+    <div id="output" class="output" >0</div>
+      <hr>
+      <span class="add">每按一次增加</span>
+      <input type="number" id = "INC" class="INC" value=1 onfocus="setreset()" >
+      <button onclick="reset()" class="reset">重設</button>
+      
+      <hr>
+    </div>
+    <button id="btn" class="btn" onclick="Cal()">0</button>
+    <audio id="audio_w" src="./audio/button9.wav"></audio>
+    <script src="scripts/app.js"></script>    
+    </body>
+    </html>
+  
